@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mango Delights</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- banner -->
+    <div class="bg-warning text-center p-5">
+      <h1><strong>Mango Delights</strong></h1>
+      <h4>Our mango makes you Happyy</h4>
+    </div>
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item text-lg">
+          <a class="nav-link h5" href="index.html">Home</a>
+        </li>
+        <li class="nav-item text-lg">
+          <a class="nav-link h5" href="about.html">About us</a>
+        </li>
+        <li class="nav-item text-lg">
+          <a class="nav-link h5 active" href="contact.html">Contact us</a>
+        </li>
+        <li class="nav-item text-lg">
+          <a class="nav-link h5" href="Faq.html">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- contact form section -->
+    <section>
+      <div class="row container mx-auto">
+        <h3 class="text-center text-uppercase mt-5">Contact us</h3>
+
+        <div class="col-md-6 p-5 bg-warning">
+          <h3 class="text-center mb-4">Connect with us</h3>
+          <h5 class="mb-3">
+            <strong>Address:</strong> Bogura Sadar,Bogura
+          </h5>
+          <h5 class="mb-3"><strong>Email:</strong> nafiur890@gmail.com</h5>
+          <h5 class="mb-3"><strong> Phone Number:</strong> 01780399956</h5>
+        </div>
+        <div class="col-md-6 p-4 border border-warning">
+          <form onsubmit="alert('message sent successfully')">
+            <label class="h6" for="">Name</label>
+            <br />
+            <input
+              class="p-2 w-100 rounded border"
+              required
+              type="text"
+              name="name"
+              placeholder="enter your name"
+              id=""
+            />
+            <br />
+            <label class="h6" for="">Email</label>
+            <br />
+            <input
+              class="p-2 w-100 rounded border"
+              required
+              type="text"
+              name="name"
+              placeholder="enter your name"
+              id=""
+            />
+            <br />
+            <label class="h6" for="">Description</label>
+            <br />
+            <textarea
+              rows="5"
+              name=""
+              required
+              id=""
+              class="p-2 w-100 rounded border"
+              placeholder="enter your topic"
+            ></textarea>
+            <br />
+            <input class="btn w-100 bg-warning" type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
